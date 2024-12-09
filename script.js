@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function enviarFormulario(event) {
-    event.preventDefault();  // Evita que se recargue la página al enviar el formulario
-    const nombre = document.getElementById('nombre').value;  // Obtiene el valor del campo 'nombre'
-    alert('Formulario enviado. Nombre: ' + nombre);  // Muestra un mensaje con el nombre ingresado
+    event.preventDefault();  
+    const nombre = document.getElementById('nombre').value;  
+    alert('Formulario enviado. Nombre: ' + nombre); 
 }
